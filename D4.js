@@ -251,10 +251,12 @@ for (i = 0; i < starWarsCharacters.length; i++) {
   // switch (true) {
   //   case starWarsCharacters[i].gender === "n/a":
   //     starWarsCharacters[i].gender = "robot";
+  //     modified.push(starWarsCharacters[i]);
   //     break;
   // }
 }
 console.log(modified); //per non richimare tutti gli oggetti
+
 /* EXTRA ESERCIZIO 9
 
 Utilizzando gli elementi presenti nell'array "femaleCharacters" rimuovi dall'array "characters" le stringhe corrispondenti 
@@ -285,6 +287,7 @@ console.log(
   "\n -------------------------- Esercizio 10 (extra) -------------------------- \n"
 );
 const random = Math.floor(Math.random() * starWarsCharacters.length);
+console.log("il numero random generato è", random);
 if (starWarsCharacters[random].gender === "male") {
   console.log(
     "Our randomly choosen character is:",
